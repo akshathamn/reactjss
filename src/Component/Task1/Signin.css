@@ -1,0 +1,18 @@
+.pos1
+{
+    height: 31px;
+    width: 238px;
+}
+.pos2
+{
+    height: 31px;
+    width: 238px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #4bcebc;
+}
+.deco
+{
+    text-decoration-line:underline;
+}

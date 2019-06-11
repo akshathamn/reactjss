@@ -1,0 +1,30 @@
+.pos5
+{
+    background-color:lightskyblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px 10px;
+    height: 35px;
+   
+}
+.align1
+{
+    font-weight: bold;
+    margin-right: 13%;
+}
+.align2
+{
+    font-weight: bold;
+    margin-right: 9%;
+}
+.align3
+{
+    font-weight: bold;
+    margin-right: 11%;
+}
+.pos1
+{
+    height: 31px;
+    width: 238px;
+}
