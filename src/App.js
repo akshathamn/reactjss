@@ -1,24 +1,18 @@
 import React from 'react';
-// import logo from './logo.svg';
+
 import {BrowserRouter as Router, Route, Switch, Redirect} from'react-router-dom';
 import './App.css';
-import Names from './Component/Names';
-import Places from './Component/Places';
-import Dobs from './Component/Dobs';
-import Lifecycle from './Component/Lifecycle';
+import Names from './Component/Task2/Names';
+import Lifecycle from './Component/Task2/Lifecycle';
 import Signup from './Component/Task1/Signup';
-import Signin from './Component/Task1/Signin';
-
+import Arithmeticoperation from './Component/Task3/Arithmeticoperation';
  function App(){
     return(<Router>
       <Switch>
-        <Route exact path='/' component={Names}></Route>
-        <Route exact path='/Places' component={Places}></Route>
-        <Route exact path='/Dobs' component={Dobs}></Route>
-        <Route exact path='/Lifecycle' component={Lifecycle}></Route>
-        <Route exact path='/Signin' component={Signin}></Route>
-        <Route exact path='/Signup' component={Signup}></Route>
-
+        <Route exact path='/Task2' component={Names}></Route>
+        <Route exact path='/Task2' component={Lifecycle}></Route>
+        <Route exact path='/Task1' component={Signup}></Route>
+        <Route exact path='/Task3' component={Arithmeticoperation}></Route>
       </Switch>
     </Router>
     )  
