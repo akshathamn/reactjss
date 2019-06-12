@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Name from './Name';
+import Places from './Places';
+import Dobs from './Dobs';
 class Names extends Component {
     render() {
         return (
@@ -8,7 +10,8 @@ class Names extends Component {
                 <Name age="30">usha</Name>
                 <Name age="40">janaki</Name>
                 <Name age="50">rohit</Name>
-                
+                <Places/>
+                <Dobs/>
             </div>
         );
     }

@@ -6,15 +6,16 @@ class Lifecycle extends Component{
         this.state={
             name:'akshatha'
         }
-        console.log('lifecycleA initialization')
-}
-
-componentDidMount(){
-    console.log('lifecycleA ComponentDidMount')
+        console.log('lifecycle initialization')
 }
 componentWillMount(){
-    console.log('lifecycleA ComponentWillMount')
+    console.log('lifecycle ComponentWillMount')
+    alert('ComponentWillMount')
 }
+componentDidMount(){
+    console.log('lifecycle ComponentDidMount')
+}
+
 render(){
     console.log('lifecycleA render')
     return(
