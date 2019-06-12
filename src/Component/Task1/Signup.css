@@ -1,4 +1,4 @@
-.pos5
+.pos6
 {
     background-color:lightskyblue;
     color: white;
@@ -11,20 +11,27 @@
 .align1
 {
     font-weight: bold;
-    margin-right: 13%;
+    margin-right: 32%;
 }
 .align2
 {
     font-weight: bold;
-    margin-right: 9%;
+    margin-right: 24%;
 }
 .align3
 {
     font-weight: bold;
-    margin-right: 11%;
+    margin-right: 28%;
 }
 .pos1
 {
     height: 31px;
     width: 238px;
+}
+.app1
+{
+    text-align: center;
+    margin: 89px 519px 83px 416px;
+    background-color:beige;
+    height: 439px;
 }

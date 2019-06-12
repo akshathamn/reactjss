@@ -1,4 +1,4 @@
-.pos1
+.pos8
 {
     height: 31px;
     width: 238px;
@@ -15,4 +15,10 @@
 .deco
 {
     text-decoration-line:underline;
+}
+#App2
+{
+    background-color:beige;
+    text-align: center;
+    color: black;
 }
