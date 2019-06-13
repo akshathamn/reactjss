@@ -1,0 +1,16 @@
+.center
+{
+    text-align: center;
+    background-color:antiquewhite;
+    margin-top: 16%;
+}
+.color
+{
+    background-color: blue;
+    color: aliceblue;
+}
+.large
+{
+    width: 20%;
+    height: 35px;
+}
