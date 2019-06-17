@@ -1,21 +1,22 @@
 import React from 'react'
+import Rest3 from './Rest3';
+const Restfultask2 = ({ hello }) => {
+  return (
+    <div>
+      <center><h1>Contact List</h1></center>
+      <div className="card">
+        <div className="card-body">
+          <h5 className="card-title">{hello.login}</h5>
+          <h6 className="card-subtitle mb-2 text-muted">{hello.id}</h6>
+          <p className="card-text">{hello.node_id}</p>
+          <p className="card-text">{hello.url}</p>
+          <p className="card-text">{hello.name}</p>
 
-    const Restfultask2 = ({ hello }) => {
-      return (
-        <div>
-          <center><h1>Contact List</h1></center>
-            <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">{hello.login}</h5>
-                <h6 className="card-subtitle mb-2 text-muted">{hello.id}</h6>
-                <p className="card-text">{hello.node_id}</p>
-                <p className="card-text">{hello.url}</p>
-                <p className="card-text">{hello.name}</p>
-              
-              </div>
-            </div>
         </div>
-      )
-    };
+      </div>
+      <Rest3 />
+    </div>
+  )
+};
 
-    export default Restfultask2;
+export default Restfultask2;

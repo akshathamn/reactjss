@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import Restfultask2 from './Restfultask2';
-
-class Restfultask1 extends Component {
+import Rest4 from './Rest4';
+class Rest3 extends Component {
   render() {
     return (
-      <Restfultask2 hello={this.state.contacts} />
+      <Rest4 hello={this.state.contacts} />
     )
   }
 
@@ -12,7 +11,7 @@ class Restfultask1 extends Component {
     contacts: ''
   };
   componentDidMount() {
-    fetch('https://api.github.com/users/KrunalLathiya')
+    fetch('https://jsonplaceholder.typicode.com/posts/1')
       .then(res => res.json())
       .then((data) => {
         this.setState({ contacts: data })
@@ -20,5 +19,5 @@ class Restfultask1 extends Component {
       .catch(console.log)
   }
 }
-export default Restfultask1;
+export default Rest3;
 
